@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="720dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:text="Login Page"
+        android:textColor="#ff00"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+       android:hint="ENTER YOUR NAME"/>
+
+    <EditText
+        android:id="@+id/upass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ENTER YOUR PASSWORD "
+        android:inputType="textPersonName"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="login"
+
+        android:textColor="@color/black"
+        app:backgroundTint="#8CDBFF" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="register"
+
+        android:textColor="@color/black"
+        app:backgroundTint="#8CDBFF"/>
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="delete"
+
+        android:textColor="@color/black"
+        app:backgroundTint="#8CDBFF"/>
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:textColor="@color/black"
+        android:text="update"
+        app:backgroundTint="#8CDBFF"/>
+
+    <Button
+        android:id="@+id/display"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="display"
+        android:textColor="@color/black"
+        app:backgroundTint="#8CDBFF"/>
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="400dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="RESULT" />
+
+</LinearLayout>
+
